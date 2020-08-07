@@ -5,5 +5,6 @@ function testFunc() {
 }
 
 function superBowlWin(array) {
-  array.find(hash => hash.result === "W")
+  hashYearWon = array.find(hash => hash.result === "W")
+
 }
