@@ -12,4 +12,5 @@ function superbowlWin(array) {
   } else {
     return undefined
   }
+
 }
