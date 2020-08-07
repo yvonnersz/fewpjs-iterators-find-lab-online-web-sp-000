@@ -7,7 +7,7 @@ function testFunc() {
 function superbowlWin(array) {
   let hashYearWon = array.find(hash => hash.result === "W");
 
-  if (hashYearWon != nil) {
+  if (hashYearWon.empty?) {
     return hashYearWon.year
   } else {
     return undefined
